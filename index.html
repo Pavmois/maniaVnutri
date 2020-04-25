@@ -1,0 +1,154 @@
+<!DOCTYPE html>
+<html lang="ru">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="viewport" content="initial-scale=1, maximum-scale=1">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="./vendor/normalize.css">
+    <link rel="stylesheet" href="./index.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.4/jquery.min.js"></script>
+    <script>
+        $(document).ready(function(){
+          $("a[href*=#]").on("click", function(e){
+              var anchor = $(this);
+              $('html, body').stop().animate({
+                  scrollTop: $(anchor.attr('href')).offset().top
+              }, 1200);
+              e.preventDefault();
+              return false;
+          });
+      });
+      </script>
+    <title>МанияВнутри</title>
+</head>
+
+<body>
+    <a href="#logo" class="comback__button">Вернуться к началу страницы</a>
+
+    <div class="page">
+        <header class="header">
+            <img class="header__logo" src="" alt="" id="logo">
+            <h2 class="content-title">Официальный сайт группы "МанияВнутри"</h2>
+        </header>
+
+        <section class="navigation">
+            <ul class="menu-main">
+                <li><a class="menu-main__title" href="#about">О нас</a></li>
+                <li><a class="menu-main__title" href="#photo">Галерея</a></li>
+                <li><a class="menu-main__title" href="#video">Видео</a></li>
+                <li><a class="menu-main__title" href="#team">Состав</a></li>
+                <li><a class="menu-main__title" href="#links">Ссылки</a></li> 
+            </ul>
+        </section>
+
+        <section class="cover">
+            <h2 class="cover__title">Твоя Мания</h2>
+            <p class="cover__subtitle">Будь с нами и познаешь новые грани сознания!</p>
+            <img class="cover-bg" src="./images/band.jpg" alt="">
+        </section>
+
+        <section class="intro">
+            <h2 class="intro__title" id="about">Кто мы?</h2>
+            <div class="content-row">
+                <p align = 'justify' class="content-row__text">Мы есть альфа и омега! Молоко и Несквик! Селёдка и водочка! Чеснок и морковочка!<br /><br />
+                    А если серьёзно, мы - Московская банда играющая вампирский рок-н-ролл для всех кто готов открыть свои сердце и душу для чего-то новго, потрясающего,
+                    кто готов принять Манию внутри себя и всецело поддаться ей отрицая социальные запреты и стереотипы.<br /><br />
+                    Мы являемся финалистами такого мощного и крутого фестиваля, как <a style="color:#ff0000" href="https://www.emergenza.net/default.aspx?pag=1099&nav=RU&lng=ru-ru&band=261183">Emergenza</a>. Наши 
+                    выстулпения не знают границ - от клуба в подвале аля "только для своих" до площадек в самом центре Москвы! В любом месте нашего выступления будет посеяна атмосфера 
+                    маньячности и одержимости! Стены окрасятся в тёмно-красные тона, а взгляды зрителей неизбежно будут прикованы к сцене.</p>
+                
+            </div>
+        </section>
+
+        <section class="photo-grid" id="photo">
+            <img class="photo-grid__item" src="./images/1.jpg" alt="">
+            <img class="photo-grid__item" src="./images/2.jpg" alt="">
+            <img class="photo-grid__item" src="./images/3.jpg" alt="">
+            <img class="photo-grid__item" src="./images/4.jpg" alt="">
+            <img class="photo-grid__item" src="./images/5.jpg" alt="">
+            <img class="photo-grid__item" src="./images/6.jpg" alt="">
+            <img class="photo-grid__item" src="./images/7.jpg" alt="">
+            <img class="photo-grid__item" src="./images/8.png" alt="">
+            <img class="photo-grid__item" src="./images/9.jpg" alt="">
+            <img class="photo-grid__item" src="./images/10.jpg" alt="">
+            <img class="photo-grid__item" src="./images/11.png" alt="">
+            <img class="photo-grid__item" src="./images/12.png" alt="">
+        </section>
+
+        <section class="video">
+            <h2 class="content-title" id="video">Видеозаписи</h2>
+            <p class="content-subtitle">Лучше один раз увидеть, чем никогда не увидеть</p>
+            <div class="video__container">
+                <div class="container__item">
+                    <iframe  width="560" height="315" src="https://www.youtube.com/embed/a_GYidttEMs" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                </div>
+
+                <div class="container__item">
+                    <iframe  width="560" height="315" src="https://www.youtube.com/embed/Eq50T4763_E" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                </div>
+
+                <div class="container__item">
+                    <iframe width="560" height="315" src="https://www.youtube.com/embed/kmAptrz4XV4" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                </div>
+
+                <div class="container__item">
+                    <iframe width="560" height="315" src="https://www.youtube.com/embed/l98sPWxsV4I" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                </div>  
+            </div>
+        </section>
+
+        <section class="comments">
+            <h2 class="content-title" id="team">Состав Группы</h2>
+            <div class="comments__container">
+                <div class="container__comment">
+                    <img class="comment__image" src="./images/Julie.jpg" alt="">
+                    <blockquote class="comment__quote">«Мы все будем летааать!»</blockquote>
+                    <p class="comment__author">Юлия Фетисова, вокал.</p>
+                </div>
+                <div class="container__comment">
+                    <img class="comment__image" src="./images/Bass.jpg" alt="">
+                    <blockquote class="comment__quote">«Доля басиста - самая сильная.»</blockquote>
+                    <p class="comment__author">Дмитрий Шестаков, бас-гитара.</p>
+                </div>
+                <div class="container__comment">
+                    <img class="comment__image" src="./images/Solo.jpg" alt="">
+                    <blockquote class="comment__quote">«Чем больше струн, тем меньше пальцев.»</blockquote>
+                    <p class="comment__author">Лёня Русанов, соло-гитара, вокал.</p>
+                </div>
+             </div>
+
+             <div class="comments__container">
+                <div class="container__comment">
+                    <img class="comment__image" src="./images/Ritm.jpg" alt="">
+                    <blockquote class="comment__quote">«Завёл байк? Заведу и толпу.»</blockquote>
+                    <p class="comment__author">Михаил Лихтер, соло\ритм-гитара.</p>
+                </div>
+                <div class="container__comment">
+                    <img class="comment__image" src="./images/Drum.jpg" alt="">
+                    <blockquote class="comment__quote">«А какая сейчас песня?»</blockquote>
+                    <p class="comment__author">Александр Гореничий, барабаны.</p>
+                </div>
+                <div class="container__comment">
+                    <img class="comment__image" src="./images/Alla.jpg" alt="">
+                    <blockquote class="comment__quote">«Я не спрашиваю. Я называю время и место.»</blockquote>
+                    <p class="comment__author">Алла Бровкина, менеджер всего.</p>
+                </div>
+             </div>
+        </section>
+
+        <footer class="footer" id="links">
+            <div class="footer__container">
+                <a href="https://www.youtube.com/channel/UCPEz9M1z2O1OuMydeL0UbaA" class="footer__link">YouTube</a>
+                <a href="https://www.instagram.com/maniavnutri/" class="footer__link">Instagram</a>
+                <a href="https://vk.com/maniavnutri" class="footer__link">Vkontakte</a>
+                <a href="https://twitter.com/MANIAvnutri" class="footer__link">Twitter</a>
+                <a href="https://soundcloud.com/maniavnutri" class="footer__link">Soundcloud</a>
+            </div>
+            <h2 class="footer__copyright">&copy; 2020. Павел Моисеев</h2>
+        </footer>
+    </div>
+</body>
+
+</html>

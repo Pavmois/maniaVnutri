@@ -1,0 +1,8 @@
+.header__logo {
+    
+    width: 200px;
+    height: auto;
+    background: #FFFFFF;
+    background-image: url(/images/ManiaEmbleb2.jpg);
+    background-size: cover;
+}

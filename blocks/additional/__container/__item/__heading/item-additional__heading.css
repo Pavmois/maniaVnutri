@@ -1,0 +1,14 @@
+.item-additional__heading {
+    width: 248px;
+    min-height: 55px;
+    font-family: Inter;
+    font-style: normal;
+    font-weight: 900;
+    font-size: 27px;
+    line-height: 29px;
+    color: #FFFFFF;
+    margin-top: 30px;
+    margin-left: 18px;
+    margin-bottom: 0px;
+    z-index: 1;
+}

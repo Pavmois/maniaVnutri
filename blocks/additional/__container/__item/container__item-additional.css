@@ -1,0 +1,10 @@
+@import url('./__heading/item-additional__heading.css');
+@import url('./__text/item-additional__text.css');
+@import url('./__item-bg/item-additional__item-bg.css');
+.container__item-additional {
+    position: relative;
+    width: 284px;
+    border-radius: 5px;
+    display: flex;
+    flex-direction: column;
+}

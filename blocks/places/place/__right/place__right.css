@@ -1,0 +1,23 @@
+@import url('./__website/place__website.css');
+@import url('./__paragraph/place__paragraph-bottom.css');
+@import url('./__paragraph/place__paragraph-top.css');
+.place__right {
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    padding-left: 5%;
+}
+
+@media screen and (max-width: 600px) {
+    .place__right {
+        width: 100%;
+        padding-left: 0;
+    }
+}
+
+@media screen and (max-width: 375px) {
+    .place__right {
+        width: 90%;
+        margin-left: 16px;
+    }
+}

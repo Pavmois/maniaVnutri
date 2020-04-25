@@ -1,0 +1,11 @@
+.item-additional__item-bg {
+    position: absolute;
+    width: 284px;
+    height: 330px;
+    background-size: cover;
+    z-index: 0;
+    opacity: 0.5;
+    border-radius: 5px;
+    overflow: hidden;
+    top: 0px;
+}

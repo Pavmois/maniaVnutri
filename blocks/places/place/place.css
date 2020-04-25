@@ -1,0 +1,15 @@
+@import url('./__left/place__left.css');
+@import url('./__right/place__right.css');
+.place {
+    position: relative;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+}
+
+@media screen and (max-width: 600px) {
+    .place {
+        flex-direction: column;
+        padding-top: 48px;
+    }
+}

@@ -1,0 +1,19 @@
+@import url('./__title/place__title.css');
+@import url('./__image/place__image.css');
+.place__left {
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+}
+
+@media screen and (max-width: 600px) {
+    .place__left {
+        width: 100%;
+    }
+}
+
+@media screen and (max-width: 375px) {
+    .place__left {
+        width: 99.5%;
+    }
+}

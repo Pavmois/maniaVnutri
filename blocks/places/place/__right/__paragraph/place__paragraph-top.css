@@ -1,0 +1,36 @@
+.place__paragraph-top {
+    width: 100%;
+    font-family: Inter;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 18px;
+    line-height: 30px;
+    color: #FFFFFF;
+    margin-bottom: 36px;
+    margin-top: -10px;
+}
+
+@media screen and (min-width: 1024px) {
+    .place__paragraph-top {
+        font-size: 18px;
+        line-height: 30px;
+        margin-top: 0px;
+    }
+}
+
+@media screen and (max-width: 768px) {
+    .place__paragraph-top {
+        font-size: 16px;
+        line-height: 27px;
+        margin-top: 0px;
+    }
+}
+
+@media screen and (max-width: 375px) {
+    .place__paragraph-top {
+        font-size: 16px;
+        line-height: 27px;
+        margin-top: 24px;
+        margin-bottom: 0px;
+    }
+}

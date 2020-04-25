@@ -1,0 +1,81 @@
+@import url('./__icon_play/item__icon_play.css');
+@import url('./_duration/item__duration.css');
+@import url('./__title/item__title.css');
+@import url('./__subtitle/item__subtitle.css');
+@import url('./_theme-bg/item__item-bg.css');
+.container__item {
+    width: 100%;
+    height: auto;
+    position: relative;
+    display: flex;
+    justify-content: space-between;
+    flex-direction: column;
+    margin-bottom: 10px;
+    
+}
+
+.container__item {
+    position: relative;
+    padding-bottom: 30%; /* задаёт высоту контейнера для 16:9 (если 4:3 — поставьте 75%) */
+    height: 0;
+    overflow: hidden;
+    
+  }
+  .container__item iframe {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    border-width: 0;
+    outline-width: 0;
+  }
+
+@media screen and (min-width: 1280px) {
+    .container__item {
+        max-width: 100%;
+        padding-bottom: 56.25%;
+    }
+}
+
+@media screen and (min-width: 1025px) {
+    .container__item {
+        max-width: 100%;
+        padding-bottom: 56.25%;
+    }
+}
+
+@media screen and (max-width: 1024px) {
+    .container__item {
+        max-width: 100%;
+        padding-bottom: 75%;
+    }
+}
+
+@media screen and (max-width: 768px) {
+    .container__item {
+        max-width: 100%;
+        padding-bottom: 56.25%;
+    }
+}
+
+@media screen and (max-width: 426px) {
+    .container__item {
+        margin-top: 25px;
+        padding-bottom: 75%;
+    }
+}
+
+@media screen and (max-width: 375px) {
+    .container__item {
+        max-width: 343px;
+        margin-top: 25px;
+        padding-bottom: 75%;
+    }
+}
+
+@media screen and (max-width: 320px) {
+    .container__item {
+        max-width: 288px;
+    }
+}

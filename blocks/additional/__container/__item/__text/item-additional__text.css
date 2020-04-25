@@ -1,0 +1,14 @@
+.item-additional__text {
+    width: 248px;
+    font-family: Inter;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 20px;
+    color: #FFFFFF;
+    margin-top: 160px;
+    margin-left: 18px;
+    text-align: justify;
+    z-index: 1;
+
+}

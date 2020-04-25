@@ -1,0 +1,102 @@
+@import url('./blocks/header/header.css');
+@import url('./blocks/lead/lead.css');
+@import url('./blocks/intro/intro.css');
+@import url('./blocks/photo-grid/photo-grid.css');
+@import url('./blocks/places/places.css');
+@import url('./blocks/video/video.css');
+@import url('./blocks/comments/comments.css');
+@import url('./blocks/cover/cover.css');
+@import url('./blocks/footer/footer.css');
+@import url('./blocks/navigation/navigation.css');
+.page {
+    background: rgba(255, 255, 255, 0);
+    margin-left: auto;
+    margin-right: auto;
+    padding-top: 30px;
+    margin-bottom: 0px;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+    -webkit-text-size-adjust: 100%;
+    -ms-text-size-adjust: 100%;
+    -moz-text-size-adjust: 100%;
+    text-rendering: optimizeLegibility;
+}
+
+body {
+    background: #2A2C2F;
+    width: 100%;
+    height: 100%;
+    margin: 0;
+    padding: 0;
+}
+
+a:hover {
+    opacity: 0.7;
+    transition: opacity 1s linear;
+}
+
+@font-face {
+    src: url("../fonts/Inter/Inter-Medium.woff") format("woff"), url("../fonts/Inter/Inter-Medium.woff2") format("woff2");
+    font-family: 'Inter';
+}
+
+@font-face {
+    src: url("../fonts/Inter/Inter-Bold.woff") format("woff"), url("../fonts/Inter/Inter-Bold.woff2") format("woff2");
+    font-family: 'Inter-Bold';
+}
+
+@font-face {
+    src: url("../fonts/Inter/Inter-Black.woff") format("woff"), url("../fonts/Inter/Inter-Black.woff2") format("woff2");
+    font-family: 'Inter-ExtraBold';
+}
+
+/*.comback__button {
+    display:block;
+    width:30px;
+    height:150px;
+    position:fixed;
+    left:0;
+    top:200px;
+    z-index: 99999;
+  }
+*/
+  .comback__button {
+    display: block;
+    position:fixed;
+    right:0;
+    bottom:10px;
+    z-index: 99999;
+    font-family: arial,sans-serif;
+    font-size: 11px;
+    color: rgb(205,216,228);
+    text-shadow: 0 -1px rgb(46,53,58);
+    text-decoration: none;
+    user-select: none;
+    line-height: 2em;
+    padding: 1px 1.2em;
+    outline: none;
+    border: 1px solid rgba(33,43,52,1);
+    border-radius: 3px;
+    background: rgb(81,92,102) linear-gradient(rgb(81,92,102), rgb(69,78,87));
+    box-shadow:
+     inset 0 1px rgba(101,114,126,1),
+     inset 0 0 1px rgba(140,150,170,.8),
+     0 1px rgb(83,94,104),
+     0 0 1px rgb(86,96,106);
+  }
+  comback__button:active {
+    box-shadow:
+     inset 0 1px 3px rgba(0,10,20,.5),
+     0 1px rgb(83,94,104),
+     0 0 1px rgb(86,96,106);
+  }
+  comback__button:focus:not(:active) {
+    border: 1px solid rgb(22,32,43);
+    border-bottom: 1px solid rgb(25,34,45);
+    background: rgb(156, 63, 63);
+    box-shadow:
+     inset 0 1px 3px rgba(0,10,20,.5),
+     0 1px rgb(83,94,104),
+     0 0 1px rgb(86,96,106);
+    pointer-events: none;
+  };
